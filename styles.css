@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(12, 156, 240);
+}
+.maincontent {
+    margin: 5px;
+    
+}
+
+.Tbar {
+    position: fixed right;
+    padding: 20px 20px 20px 20px;
+    text-align: right;
+    background-color: azure;
+
+}
+a {
+    border-radius: 25px;
+    border: 2px solid rgb(168, 167, 167);
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    background-color: rgb(168, 167, 167);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:any-link {
+    color: black;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: coral;
+}
+
+.bigbox {
+    border: 5px transparent;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    flex:content;
+    border: 3px solid rgb(168, 167, 167);
+    border-radius: 10px;
+    float: center;
+    margin: 10% 35% 20% 35%;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+.smallbox {
+    padding: 5px;
+    text-align: center;
+    flex-direction: column;
+
+}
+button {
+    background-color: rgb(10, 120, 245);
+    
+}
